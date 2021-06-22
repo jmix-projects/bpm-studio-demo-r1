@@ -14,12 +14,12 @@
         </jmix:formData>
       </extensionElements>
       <incoming>Flow_1fgrush</incoming>
-      <outgoing>Flow_1r1dpdj</outgoing>
+      <outgoing>Flow_end</outgoing>
     </userTask>
     <endEvent id="Event_0grqvip">
-      <incoming>Flow_1r1dpdj</incoming>
+      <incoming>Flow_end</incoming>
     </endEvent>
-    <sequenceFlow id="Flow_1r1dpdj" sourceRef="Activity_17iig3y" targetRef="Event_0grqvip" />
+    <sequenceFlow id="Flow_end" name="end" sourceRef="Activity_17iig3y" targetRef="Event_0grqvip" />
   </process>
   <bpmndi:BPMNDiagram id="BPMNDiagram_process">
     <bpmndi:BPMNPlane id="BPMNPlane_process" bpmnElement="testflownodeprocess">
@@ -27,9 +27,12 @@
         <omgdi:waypoint x="180" y="165" />
         <omgdi:waypoint x="230" y="165" />
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge id="Flow_1r1dpdj_di" bpmnElement="Flow_1r1dpdj">
+      <bpmndi:BPMNEdge id="Flow_1r1dpdj_di" bpmnElement="Flow_end">
         <omgdi:waypoint x="330" y="165" />
         <omgdi:waypoint x="382" y="165" />
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds x="347" y="147" width="19" height="14" />
+        </bpmndi:BPMNLabel>
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNShape id="BPMNShape_startEvent1" bpmnElement="startEvent1">
         <omgdc:Bounds x="150" y="150" width="30" height="30" />
