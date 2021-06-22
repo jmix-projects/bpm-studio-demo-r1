@@ -11,6 +11,10 @@
           <jmix:formFields>
             <jmix:formField id="count" caption="Count" type="long" editable="true" required="false" />
           </jmix:formFields>
+          <jmix:formOutcomes>
+            <jmix:formOutcome id="action1" caption="Action1" />
+            <jmix:formOutcome id="action2" caption="Action2" />
+          </jmix:formOutcomes>
         </jmix:formData>
       </extensionElements>
       <incoming>Flow_1fgrush</incoming>
