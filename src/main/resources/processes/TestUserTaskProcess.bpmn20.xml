@@ -5,7 +5,9 @@
       <extensionElements>
         <jmix:processVariables>
           <jmix:processVariable name="v1" type="string" />
-          <jmix:processVariable name="v2" type="long" />
+          <jmix:processVariable name="user" type="entity">
+            <jmix:processVariableProperty name="entityName" value="User" />
+          </jmix:processVariable>
         </jmix:processVariables>
         <jmix:formData type="no-form" />
       </extensionElements>
